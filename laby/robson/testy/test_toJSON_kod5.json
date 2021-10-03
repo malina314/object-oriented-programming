@@ -1,0 +1,1 @@
+{  "typ": "While",  "warunek": {    "typ": "<",    "argument1": {      "typ": "Zmienna",      "nazwa": "index"    },    "argument2": {      "typ": "Zmienna",      "nazwa": "numer"    }  },  "blok": {    "typ": "Blok",    "instrukcje": []  }}

@@ -1,0 +1,10 @@
+Program korzysta z biblioteki Moshi do parsowania JSONów, oraz z JUnit do testów.
+
+Aby skompilować program, należy, będąc w katalogu, do którego wypakowało się pliki, wykonać polecenie:
+javac -cp lib/moshi-1.12.0.jar:lib/junit-4.12.jar:lib/okio-2.10.0.jar:lib/kotlin-stdlib-1.4.31.jar src/zad2/*.java
+
+Aby uruchomić program, należy (w tym samym katalogu) wykonać polecenie:
+java -cp lib/moshi-1.12.0.jar:lib/junit-4.12.jar:lib/okio-2.10.0.jar:lib/kotlin-stdlib-1.4.31.jar:src/ zad2.Robson
+
+Aby uruchomić testy, należy (w tym samym katalogu) wykonać polecenie:
+java -cp lib/moshi-1.12.0.jar:lib/junit-4.12.jar:lib/okio-2.10.0.jar:lib/kotlin-stdlib-1.4.31.jar:lib/hamcrest-core-1.3.jar:src/ org.junit.runner.JUnitCore zad2.RobsonTest
